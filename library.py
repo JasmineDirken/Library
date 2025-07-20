@@ -2,6 +2,8 @@ import json
 
 filename = "library.json"
 
+#view all books
+
 def option_1():
     print("You have selected to view all books.")
     
@@ -15,6 +17,7 @@ def option_1():
             print(f"{i}: Title: {book['title']}, Author: {book['author']}, Year: {book['year']}, Genre: {book['genre']}")
 
 
+#add new books
 
 def option_2():
     print("You have selected to add new books.")
